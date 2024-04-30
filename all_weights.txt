@@ -128,7 +128,6 @@ artificialguybr/PixelArtRedmond15V-PixelArt-PIXARFK.safetensors
 artificialguybr/PomologicalWatercolorRedmond.safetensors
 artificialguybr/PS1Redmond-PS1Game-Playstation1Graphics.safetensors
 artificialguybr/StickersRedmond.safetensors
-artificialguybr/StickersRedmond15Version-Stickers-Sticker.safetensors
 artificialguybr/StickersRedmond21V-FreedomRedmond-Sticker-Stickers.safetensors
 artificialguybr/StoryBookRedmond-KidsRedmAF.safetensors
 artificialguybr/StoryBookRedmond15-KidsRedmAF-KidsBook.safetensors
