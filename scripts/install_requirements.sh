@@ -3,7 +3,7 @@
 # The directory to start from, "." means the current directory
 # You can replace "." with another directory path if needed
 start_dir="/home/ubuntu/setup-comfyui/ComfyUI/custom_nodes/"
-pyhton_dir="python"
+pyhton_dir="/home/ubuntu/.pyenv/versions/3.11.7/bin/python"
 
 # Iterate over each directory in the specified start directory (first layer only)
 for dir in "$start_dir"/*/; do

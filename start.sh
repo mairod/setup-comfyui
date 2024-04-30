@@ -4,7 +4,8 @@
 MOUNT_POINT='/home/ubuntu/s3'
 LOCAL_DIR="/home/ubuntu/setup-comfyui/ComfyUI"
 
-PYTHON_BIN="python"
+PYTHON_BIN="/home/ubuntu/.pyenv/versions/3.11.7/bin/python"
+# PYTHON_BIN="/home/ubuntu/.pyenv/versions/3.12.2/bin/python"
 TEMP_DIR="/home/ubuntu/tmp/s3"
 
 S3_IS_EMPTY=0
