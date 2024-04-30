@@ -146,3 +146,13 @@ python main.py --listen 0.0.0.0
 `http://<gpu-machines-ip>:8188`
 
 When you goto `http://<gpu-machines-ip>:8188` you'll see the classic ComfyUI web form!
+
+
+4. **Custom stuff**: 
+
+Install all pip requirements: 
+`./scripts/install_requirements.sh`
+
+Install all the checkpoints: 
+`python scripts/get_weights.py ./all_weights.txt`
+
