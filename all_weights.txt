@@ -129,7 +129,6 @@ artificialguybr/PomologicalWatercolorRedmond.safetensors
 artificialguybr/PS1Redmond-PS1Game-Playstation1Graphics.safetensors
 artificialguybr/StickersRedmond.safetensors
 artificialguybr/StoryBookRedmond-KidsRedmAF.safetensors
-artificialguybr/StoryBookRedmond15-KidsRedmAF-KidsBook.safetensors
 artificialguybr/StorybookRedmondUnbound-KidsRedmAF.safetensors
 artificialguybr/StorybookRedmondV2-KidsBook-KidsRedmAF.safetensors
 artificialguybr/StudioGhibli.Redmond-StdGBRRedmAF-StudioGhibli.safetensors
