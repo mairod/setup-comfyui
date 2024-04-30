@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Define your S3 bucket mount point
 MOUNT_POINT='/home/ubuntu/s3'
 LOCAL_DIR="/home/ubuntu/setup-comfyui/ComfyUI"
@@ -11,7 +10,7 @@ TEMP_DIR="/home/ubuntu/tmp/s3"
 S3_IS_EMPTY=0
 
 echo "Mounting S3 bucket..."
-s3fs comfy-ui-s3-bucket "$MOUNT_POINT" -o use_cache=/tmp,multireq_max=32,parallel_count=16,nomultipart,allow_other
+s3fs comfy-ui-s3-bucket "$MOUNT_POINT" -o use_cache=/tmp,multireq_max=32,parallel_count=16,nomultipart
 #sudo s3fs comfy-ui-s3-bucket ~/s3 -o allow_other,use_cache=/tmp,ensure_diskfree=50000,multireq_max=32,parallel_count=16,nomultipart,max_stat_cache_size=50000,stat_cache_interval_expire=1300000
 
 # Maximum number of attempts to check for the mount
@@ -58,7 +57,7 @@ while [ $attempt -le $MAX_ATTEMPTS ]; do
 
         sleep $SLEEP_SECONDS
         echo "Try mounting S3 bucket again..."
-        s3fs comfy-ui-s3-bucket "$MOUNT_POINT" -o use_cache=/tmp,multireq_max=32,parallel_count=16,nomultipart,allow_other
+        s3fs comfy-ui-s3-bucket "$MOUNT_POINT" -o use_cache=/tmp,multireq_max=32,parallel_count=16,nomultipart
     fi
 
     ((attempt++))
