@@ -10,11 +10,11 @@ from helpers.WAS_Node_Suite import WAS_Node_Suite
 from helpers.ComfyUI_Frame_Interpolation import ComfyUI_Frame_Interpolation
 
 UPDATED_WEIGHTS_MANIFEST_URL = f"https://weights.replicate.delivery/default/comfy-ui/weights.json?cache_bypass={int(time.time())}"
-UPDATED_WEIGHTS_MANIFEST_PATH = "updated_weights.json"
-WEIGHTS_MANIFEST_PATH = "weights.json"
+UPDATED_WEIGHTS_MANIFEST_PATH = "/home/ubuntu/setup-comfyui/updated_weights.json"
+WEIGHTS_MANIFEST_PATH = "/home/ubuntu/setup-comfyui/weights.json"
 
 BASE_URL = "https://weights.replicate.delivery/default/comfy-ui"
-BASE_PATH = "ComfyUI/models"
+BASE_PATH = "/home/ubuntu/setup-comfyui/ComfyUI/models"
 
 
 class WeightsManifest:
