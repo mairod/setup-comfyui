@@ -39,6 +39,7 @@ class WeightsManifest:
                     # "warn",
                     # "-f",
                     UPDATED_WEIGHTS_MANIFEST_URL,
+                    "-o",
                     UPDATED_WEIGHTS_MANIFEST_PATH,
                 ],
                 close_fds=False,
