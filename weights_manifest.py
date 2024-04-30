@@ -37,7 +37,7 @@ class WeightsManifest:
                     "pget",
                     # "--log-level",
                     # "warn",
-                    "-f",
+                    # "-f",
                     UPDATED_WEIGHTS_MANIFEST_URL,
                     UPDATED_WEIGHTS_MANIFEST_PATH,
                 ],
