@@ -35,11 +35,11 @@ class WeightsManifest:
             subprocess.check_call(
                 [
                     "pget",
-                    # "--log-level",
-                    # "warn",
-                    # "-f",
+                    "--log-level",
+                    "warn",
+                    "-f",
                     UPDATED_WEIGHTS_MANIFEST_URL,
-                    "-o",
+                    # "-o",
                     UPDATED_WEIGHTS_MANIFEST_PATH,
                 ],
                 close_fds=False,
